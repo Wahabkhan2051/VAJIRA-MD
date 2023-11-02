@@ -18,7 +18,7 @@ module.exports = {
   botname:   process.env.BOT_NAME === undefined ? '𝗩𝗔𝗝𝗜𝗥𝗔 𝗠𝗗' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? '𝗩𝗔𝗝𝗜𝗥𝗔' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
-  author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'SamPandey001' : process.env.PACK_INFO.split(";")[0],
+  author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'Vajira' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'Vajira-Md' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
