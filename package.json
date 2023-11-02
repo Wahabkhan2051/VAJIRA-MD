@@ -1,15 +1,15 @@
 {
-               "name": "vajira-md",
+               "name": "secktor-md",
                "version": "0.0.7",
-               "description": "Multi device whatsapp bot by Vajira.",
+               "description": "Multi device whatsapp bot by SamPandey001.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name vajira",
-                "stop": "pm2 stop vajira"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name secktor",
+                "stop": "pm2 stop secktor"
                 },
-               "author": "vajira",
+               "author": "SamPandey001",
               "dependencies": {
                        "@sampandey001/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
@@ -68,10 +68,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/vajirabot1/VAJIRA-MD.git"
+                 "url": "git+https://github.com/SamPandey001/Secktor-Md.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/vajirabot1/VAJIRA-MD/issues"
+                 "url": "https://github.com/SamPandey001/Secktor-Md/issues"
                   },
-                 "homepage": "https://github.com/vajirabot1/VAJIRA-MD#readme"
+                 "homepage": "https://github.com/SamPandey001/Secktor-Md#readme"
                   }
